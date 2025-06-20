@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sivaram Swaminathan - Resume</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: white;
+            font-size: 11pt;
+            max-width: 8.5in;
+            margin: 0 auto;
+            padding: 0.75in;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 2em;
+            padding-bottom: 1em;
+            border-bottom: 2px solid #e0e0e0;
+        }
+
+        .name {
+            font-size: 28pt;
+            font-weight: 700;
+            color: #2c3e50;
+            margin-bottom: 0.3em;
+            letter-spacing: -0.5px;
+        }
+
+        .title {
+            font-size: 14pt;
+            color: #7f8c8d;
+            margin-bottom: 1em;
+            font-weight: 500;
+        }
+
+        .contact-info {
+            font-size: 10pt;
+            color: #555;
+            line-height: 1.4;
+        }
+
+        .contact-info span {
+            margin: 0 8px;
+        }
+
+        .section {
+            margin-bottom: 2em;
+        }
+
+        .section-title {
+            font-size: 13pt;
+            font-weight: 700;
+            color: #2c3e50;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 1em;
+            padding-bottom: 0.3em;
+            border-bottom: 1px solid #bdc3c7;
+        }
+
+        .summary {
+            text-align: justify;
+            color: #444;
+            font-size: 11pt;
+            line-height: 1.7;
+        }
+
+        .job {
+            margin-bottom: 1.5em;
+        }
+
+        .job-header {
+            margin-bottom: 0.5em;
+        }
+
+        .job-title {
+            font-weight: 700;
+            font-size: 12pt;
+            color: #2c3e50;
+        }
+
+        .company-info {
+            color: #7f8c8d;
+            font-size: 10pt;
+            margin-top: 0.2em;
+        }
+
+        .job-description {
+            margin-left: 0;
+        }
+
+        .job-description li {
+            margin-bottom: 0.4em;
+            color: #444;
+            line-height: 1.6;
+            list-style-type: none;
+            position: relative;
+            padding-left: 1em;
+        }
+
+        .job-description li:before {
+            content: "•";
+            color: #7f8c8d;
+            position: absolute;
+            left: 0;
+        }
+
+        .education-item {
+            margin-bottom: 0.8em;
+        }
+
+        .degree {
+            font-weight: 600;
+            color: #2c3e50;
+            font-size: 11pt;
+        }
+
+        .institution {
+            color: #7f8c8d;
+            font-size: 10pt;
+            margin-top: 0.2em;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 0.5em;
+        }
+
+        .skill-category {
+            margin-bottom: 0.6em;
+        }
+
+        .skill-category strong {
+            color: #2c3e50;
+            font-weight: 600;
+        }
+
+        .skill-list {
+            color: #555;
+            margin-top: 0.2em;
+        }
+
+        strong {
+            color: #2c3e50;
+        }
+
+        @media print {
+            body {
+                padding: 0.5in;
+                font-size: 10pt;
+            }
+            
+            .header {
+                margin-bottom: 1.5em;
+            }
+            
+            .section {
+                margin-bottom: 1.5em;
+                break-inside: avoid;
+            }
+            
+            .job {
+                break-inside: avoid;
+                margin-bottom: 1.2em;
+            }
+
+            @page {
+                margin: 0.5in;
+                size: letter;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1 class="name">Sivaram Swaminathan</h1>
+        <div class="title">Software Engineer</div>
+        <div class="contact-info">
+            📧 sivaram.swaminathan99@gmail.com<span>•</span>📞 +91 9442200488<span>•</span>📍 Bangalore, India<br>
+            🔗 <a href="https://www.linkedin.com/in/sivaram-swaminathan" style="color: #2c3e50; text-decoration: none;">LinkedIn</a><span>•</span>🧑‍💻 @sivaram
+        </div>
+    </div>
+
+    <div class="section">
+        <h2 class="section-title">Backend Engineer</h2>
+        <div class="summary">
+            Results-driven backend engineer specializing in Java, Spring Boot, and scalable, production-grade systems. Proven ability to lead projects end-to-end, from architecture to deployment, with expertise in database design, performance optimization, containerization, and CI/CD pipelines. Passionate about clean code, automation, and collaborative agile environments.
+        </div>
+    </div>
+
+    <div class="section">
+        <h2 class="section-title">Professional Experience</h2>
+        
+        <div class="job">
+            <div class="job-header">
+                <div class="job-title">Software Engineer</div>
+                <div class="company-info">BlueOptima | Bangalore, India | 2023 – Present</div>
+            </div>
+            <ul class="job-description">
+                <li>Spearheaded <strong>HTF (How To Fix)</strong>, an AI-powered system generating developer-friendly code fixes; led project from HLD to production deployment.</li>
+                <li>Developed and maintained a powerful <strong>CLI tool</strong> for on-demand code maintainability suggestions and automation.</li>
+                <li>Led multiple high-impact backend projects, enhancing feature delivery and optimizing performance across the core product.</li>
+                <li>Drove initiatives to improve <strong>usage tracking and quota enforcement</strong> with minimal overhead.</li>
+                <li>Architected and delivered scalable microservices using <strong>Java, Spring Boot, and PostgreSQL</strong>, with secure JWT-based communication.</li>
+                <li>Advocated for best practices including <strong>Docker containerization, Jenkins CI/CD</strong>, and agile methodologies.</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <div class="job-header">
+                <div class="job-title">Associate Software Engineer</div>
+                <div class="company-info">BlueOptima | Bangalore, India | 2022 – 2023</div>
+            </div>
+            <ul class="job-description">
+                <li>Played a pivotal role in developing the <strong>Integrator Management Service (Spring Boot)</strong>, ensuring zero downtime for client metadata retrieval.</li>
+                <li>Developed an <strong>OAuth-equivalent authentication server</strong> to enhance security and facilitate JWT-based internal service communication.</li>
+                <li>Ideated and implemented a <strong>license-sharing mechanism</strong>, enabling integrators to function as a cluster for accelerated metadata extraction.</li>
+                <li>Designed and implemented a robust <strong>load-balancing system</strong> for efficient management of concurrent read/write operations within the integrator cluster.</li>
+                <li>Implemented <strong>AWS CodeCommit extraction</strong> functionality within the Integrator application.</li>
+                <li>Optimized API performance via database query tuning and resolved critical backend service bugs.</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <div class="job-header">
+                <div class="job-title">Assistant System Engineer</div>
+                <div class="company-info">Tata Consultancy Services Limited | Chennai, India | 2020 – 2022</div>
+            </div>
+            <ul class="job-description">
+                <li>Conducted real-time log analytics and threat detection across enterprise network infrastructure.</li>
+                <li>Detected anomalous activities and flagged security risks, significantly improving internal threat visibility.</li>
+                <li>Automated audit log retrieval and parsing scripts, enhancing accuracy and turnaround time for security insights.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2 class="section-title">Education</h2>
+        <div class="education-item">
+            <div class="degree">Bachelor of Technology (B.Tech) – Mechatronics Engineering</div>
+            <div class="institution">SASTRA Deemed to be University | Thanjavur, India | 2016 – 2020</div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2 class="section-title">Technical Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <strong>Languages/Frameworks:</strong>
+                <div class="skill-list">Java, Spring Boot, Hibernate</div>
+            </div>
+            <div class="skill-category">
+                <strong>DevOps/Tools:</strong>
+                <div class="skill-list">Docker, Jenkins, Git, Liquibase</div>
+            </div>
+            <div class="skill-category">
+                <strong>Database:</strong>
+                <div class="skill-list">PostgreSQL, Redis</div>
+            </div>
+            <div class="skill-category">
+                <strong>Cloud & Infra:</strong>
+                <div class="skill-list">AWS, CI/CD pipelines, Linux</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
